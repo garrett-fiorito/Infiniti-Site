@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Photos</title>
+    <link rel="stylesheet" href="git.ignore\node_modules\bootstrap\dist\css\bootstrap.css">
+
+    <style>
+    body {
+        background-image: linear-gradient(90deg, #f7f6a3 0%, #f57056 100%);
+    }
+    .image-grid {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 1rem;
+    }
+
+    .image-grid img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+    </style>
+</head>
+
+<body class = bg-primary bg-gradient>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+          <a class="navbar-brand" href="index.html">Home</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="index.html" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">                <span class="navbar-toggler-icon"></span>
+        </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+            <li class="nav-item">
+                <a class="nav-link" href="build.html">Build List</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="gallery.html">Photos</a>
+            </li>
+            </ul>
+              </div>
+            </div>
+          </nav>
+          <div class="container mt-4">
+            <div class="row">
+              <div class="col-12">
+                <div class="image-grid">
+                  <img src="img\best.jpeg" alt="Car Image 1">
+                  <img src="img\bothcar.jpg" alt="Car Image 2">
+                  <img src="img\side1.jpeg" alt="Car Image 3">
+                  <img src="img\men.jpg" alt="Car Image 4">
+                </div>
+              </div>
+            </div>
+          </div>
+      <script src="git.ignore\node_modules\jquery\tmp\jquery.js"></script>
+    <script src="git.ignore\node_modules\bootstrap\dist\js\bootstrap.bundle.js"></script>
+</body>
+</html>

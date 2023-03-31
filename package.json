@@ -1,0 +1,16 @@
+{
+  "name": "g35",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^5.2.3",
+    "jquery": "npm:jQuery@^1.7.4",
+    "jQuery": "^1.7.4"
+  }
+}
